@@ -1,0 +1,166 @@
+#[FileName]
+##
+#FileName=
+#[FileName]
+##
+#Scan_FileName=D:\Измерения\Лабораторные работы\2023_V34022_Min\лазер исходный СД.arc_data
+## *** Note this is the base FileName and may not be the final Scan_FileName
+#Routine_FileName= "Not Saved"
+#Type=SinglePoint
+#TimeStamp=11/10/2023 12:25:36 PM
+##
+#[NCL]
+##
+#Serial=210436
+#Model=Spectra-Hub1
+#WaveUnits=nm
+#routine=ScanMono1
+#Mono1Use=Active
+#Mono1Serial=25580345
+#Mono2Use=none
+#Ch1Use=Active
+#Ch2Use=none
+#Ch3Use=none
+#Shutter1Use=none
+#Shutter2Use=none
+#FilterUse=none
+#FilterUse2=none
+##
+#[NCL_Acquisition]
+##
+#IntegrationTime=200
+#IntegrationTime_Units=milliSeconds
+#Storage=postFixed
+#Operator=
+#DataCalc=ch1
+#Data_Channel_Num=1
+#RefCalc=ch1
+#Readings_per_Point=1
+#DarkReading=0
+#Cycles=1
+#Cycle_Delay=0
+#Cycle_Delay_Units=milliSeconds
+##
+#[NCL_Acquisition_Mono1]
+##
+#Start_nm=500.0000
+#Start_(nm)=500.0000
+#Stop_nm=700.0000
+#Stop_nm(nm)=700.0000
+#Increment=3.0000
+#Increment_(nm)=3.0000
+#PauseAfterMove=0
+#PostMoveSettleTime=0
+#Backwards_Scan=false
+##
+#[NCL_Triggers]
+##
+#InputTriggerOn=0
+#InputTriggerOn_Str=false
+#OutputTriggerOn=0
+#OutputTriggerOn_Str=false
+##
+#[NCL_Ch1]
+##
+#Units=Micro Volts
+#Unit_Index=2
+#Type=IR
+#Mode=voltage
+#Gain=0
+#unipolar=0
+##
+#[SR510_LockIn]
+##
+#SR510_Present=0
+##
+#[NCL_Mono1]
+##
+#Model=SP-2-500i
+#Serial=25580345
+#Grating=3
+#Grating_Density=150
+#Grating_Blaze=1.2um
+#Use_Band_Pass_Slits=0
+#Entry_Index=1
+#Entry=side
+#EntryType=Manual Slit
+#EntryWidth=0
+#EntryWidth_units=microns
+#Exit_Index=4
+#Exit=side
+#ExitType=Manual Slit
+#ExitWidth=0
+#ExitWidth_units=microns
+#Use_BandPass_Slit=0
+#
+#Wavelength	         Reading
+#
+
+  500.0000	 2641.67785644531
+  503.0000	-2331.73370361328
+  506.0000	 6895.06530761719
+  509.0000	 3933.90655517578
+  512.0000	-7457.73315429688
+  515.0000	-3895.75958251953
+  518.0000	 3437.99591064453
+  521.0000	-7367.13409423828
+  524.0000	-6380.08117675781
+  527.0000	-1802.44445800781
+  530.0000	-8635.52093505859
+  533.0000	-424.385070800781
+  536.0000	-1745.22399902344
+  539.0000	-729.560852050781
+  542.0000	-5898.47564697266
+  545.0000	-12083.0535888672
+  548.0000	-9293.55621337891
+  551.0000	-2741.81365966797
+  554.0000	     -12207.03125
+  557.0000	-5407.33337402344
+  560.0000	-848.770141601563
+  563.0000	   1678.466796875
+  566.0000	-12693.4051513672
+  569.0000	-8516.31164550781
+  572.0000	-11076.9271850586
+  575.0000	-5431.17523193359
+  578.0000	-4148.48327636719
+  581.0000	-5044.93713378906
+  584.0000	-5388.25988769531
+  587.0000	-7205.00946044922
+  590.0000	-4038.81072998047
+  593.0000	-9403.22875976563
+  596.0000	-10547.6379394531
+  599.0000	-4611.01531982422
+  602.0000	-7352.82897949219
+  605.0000	-5526.54266357422
+  608.0000	 15830.9936523438
+  611.0000	 64635.2767944336
+  614.0000	 199346.542358398
+  617.0000	 494909.286499023
+  620.0000	  966467.85736084
+  623.0000	 1262011.52801514
+  626.0000	 1375694.27490234
+  629.0000	 1473608.01696777
+  632.0000	  1565446.8536377
+  635.0000	 1637248.99291992
+  638.0000	 1665053.36761475
+  641.0000	 1676621.43707275
+  644.0000	 1679992.67578125
+  647.0000	  1663923.2635498
+  650.0000	 1527504.92095947
+  653.0000	 1250262.26043701
+  656.0000	  690870.28503418
+  659.0000	 168013.572692871
+  662.0000	 28619.7662353516
+  665.0000	 14672.2793579102
+  668.0000	 5407.33337402344
+  671.0000	 1797.67608642578
+  674.0000	-25887.4893188477
+  677.0000	-8916.85485839844
+  680.0000	-6718.63555908203
+  683.0000	-4487.03765869141
+  686.0000	-5702.97241210938
+  689.0000	 -2059.9365234375
+  692.0000	-3371.23870849609
+  695.0000	-3352.16522216797
+  698.0000	  9.5367431640625
+  701.0000	  114.44091796875
